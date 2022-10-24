@@ -2021,6 +2021,7 @@ input::-moz-focus-inner {
 
 .home-social li {
   position: relative;
+  color: white;
   padding: 0.9rem 0;
 }
 
@@ -2033,6 +2034,7 @@ input::-moz-focus-inner {
 .home-social i,
 .home-social span {
   position: absolute;
+  color: white;
   top: 0;
   line-height: 33px;
   -webkit-transition: all 0.5s ease-in-out;
@@ -2052,7 +2054,7 @@ input::-moz-focus-inner {
 }
 
 .home-social span {
-  color: var(--primary-color-blue);
+  color: white;
   right: 4.5rem;
   font-size: 1.3rem;
   opacity: 0;
@@ -2062,7 +2064,7 @@ input::-moz-focus-inner {
   transform: scale(0);
   -webkit-transform-origin: 100% 50%;
   -ms-transform-origin: 100% 50%;
-  transform-origin: 100% 50%;
+  transform-origin: 100% 100%;
 }
 
 .home-social li:hover span {
@@ -2587,17 +2589,18 @@ html.no-csstransitions .home-content__main {
 .s-works {
   background: #ffffff;
   padding: 0 0 0 0;
-  min-height: 800px;
+
+  height: 100px;
   position: relative;
 }
 
 .s-works .intro-wrap {
-  padding: 13rem 0 13rem;
+  padding: 13rem 0 2rem;
   background: #111111;
 }
 
 .works-content {
-  max-width: 1160px;
+  max-width: 160px;
   margin-top: -23.4rem;
 }
 
@@ -4464,7 +4467,8 @@ footer .row {
 
 .interest {
   display: block;
-  width: 33%;
+  width: 50%;
+  opacity: 0.5;
   float: left;
 }
 
@@ -4472,12 +4476,14 @@ footer .row {
   position: relative;
   height: 150px;
   width: 150px;
+  cursor: pointer;
 }
 
 .interest-head {
   padding: 20px 30px 20px !important;
   margin-bottom: 0;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .interest-content {
@@ -4488,16 +4494,10 @@ footer .row {
 }
 
 .interests:hover .interest {
-  filter: blur(1px);
   opacity: 0.5;
-  transform: scale(0.98);
-  box-shadow: none;
 }
 .interests:hover .interest:hover {
-  transform: scale(1);
-  filter: blur(0px);
   opacity: 1;
-  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
 }
 
 @media only screen and (max-width: 900px) {
