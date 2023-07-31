@@ -4480,10 +4480,13 @@ footer .row {
 }
 
 .interest-head {
-  padding: 20px 30px 20px !important;
-  margin-bottom: 0;
-  font-size: 16px;
-  cursor: pointer;
+    padding: 20px 30px 20px !important;
+    margin-bottom: 0;
+    font-size: 16px;
+    cursor: pointer;
+    font-variant: small-caps;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .interest-content {
@@ -4492,7 +4495,10 @@ footer .row {
   font-size: 14px;
   color: #888;
 }
-
+.interests .interest {
+    opacity: 0.5;
+    transition: opacity 1.5s ease;
+}
 .interests:hover .interest {
   opacity: 0.5;
 }
