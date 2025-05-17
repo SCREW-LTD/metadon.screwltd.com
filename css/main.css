@@ -4470,6 +4470,7 @@ footer .row {
   width: 50%;
   opacity: 0.5;
   float: left;
+  transition: all 0.3s ease;
 }
 
 .interest img {
