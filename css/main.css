@@ -4467,7 +4467,7 @@ footer .row {
 
 .interest {
   display: block;
-  width: 50%;
+  width: 33.333%;
   opacity: 0.5;
   float: left;
   transition: all 0.3s ease;
